@@ -1,0 +1,18 @@
+.slider-container {
+  max-width: 500px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+}
+
+.slide {
+  width: 100%;
+  display: none;
+}
+
+.slide:first-child {
+  display: block;
+}
